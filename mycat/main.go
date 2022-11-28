@@ -62,7 +62,7 @@ func readLine(path string) {
 		case true:
 			fmt.Printf("%3d: %s\n", i, t)
 		case false:
-			fmt.Printf("   | %s\n", t)
+			fmt.Printf("     %s\n", t)
 		}
 		i++
 	}
